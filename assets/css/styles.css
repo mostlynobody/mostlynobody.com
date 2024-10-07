@@ -41,12 +41,6 @@ body {
     -ms-user-select: none;      /* Internet Explorer/Edge */
 }
 
-@media (max-width: 600px) {
-    .text-container {
-        font-size: 8vw;
-    }
-}
-
 @media (min-width: 1200px) {
     .text-container {
         font-size: 2vw;
