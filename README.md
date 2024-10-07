@@ -1,6 +1,3 @@
-# Mostly Nobody Dot Com
+# mostlynobody.com
 
-### Colors
-* RED #A50000
-* WHITE #F0F3F5
-* BLACK #090A0C
+This is the repository for [mostlynobody.com](https://mostlynobody.com/).

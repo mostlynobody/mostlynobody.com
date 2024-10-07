@@ -16,7 +16,6 @@ const backgrounds = [
 const fonts = [
     'Roboto, sans-serif',
     'Montserrat, sans-serif',
-    'Lobster, cursive',
     'Playfair Display, serif',
     'Oswald, sans-serif',
     'Merriweather, serif',
