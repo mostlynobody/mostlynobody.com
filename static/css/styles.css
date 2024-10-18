@@ -39,6 +39,10 @@ header h1 {
     -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
+a:link, a:visited {;
+    color: #F0F3F5;
+  }
+
 .container {
     display: flex;
     flex: 1;
