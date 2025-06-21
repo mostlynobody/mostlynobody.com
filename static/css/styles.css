@@ -35,15 +35,20 @@ header h1 {
     margin-top: 0.2em;
 
     /* Prevent text selection */
-    user-select: none; /* Standard syntax */
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
 }
 
-a:link, a:visited {;
+a:link,
+a:visited {
     color: #F0F3F5;
-  }
+}
 
 .link-list-container {
     z-index: 2;
@@ -51,7 +56,8 @@ a:link, a:visited {;
     flex: 1;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Center items horizontally within the container */
+    align-items: center;
+    /* Center items horizontally within the container */
     padding: 20px 20px;
 }
 
@@ -61,7 +67,8 @@ a:link, a:visited {;
     text-decoration: none;
     font-size: 2vmax;
     padding: 12px 0 12px 12px;
-    width: 10vmax; /* Adjust the width as needed */
+    width: 10vmax;
+    /* Adjust the width as needed */
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -71,18 +78,6 @@ a:link, a:visited {;
 }
 
 /* Add spacing between the link items */
-.link-item + .link-item {
+.link-item+.link-item {
     margin-top: 10px;
-}
-
-footer {
-    z-index: 2;
-    margin-top: auto;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-.commit-hash {
-    font-size: 1vmax;
-    font-weight: 300;
 }
